@@ -3,7 +3,7 @@ import logging
 import os
 from aiogram import Bot, Dispatcher, executor, filters, types
 
-API_TOKEN = '5119282527:AAGmvaAiqGaM0pPAZ-lBGPDCZMYJ1gVJU1c'
+API_TOKEN = os.environ['tg_api_token']
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
